@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=EVILCHAT
+
+
+[Package|EVILCHAT|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\desktop\desktop2\PPPP\Chat(Client)\Package
+
+[Package|EVILCHAT|Configure DAO ISAMs]
+Applicable=No
+
+[Package|EVILCHAT|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|EVILCHAT|Files Found]
+
+[Package|EVILCHAT|Files Released]
+
+[Package|EVILCHAT|Missing Dependency Information]
+
+[Package|EVILCHAT|Out-of-Date Dependency Information]
+
+[Package|EVILCHAT|Files Added]
+
+[Package|EVILCHAT|Files Removed]
+
+[Package|EVILCHAT|Files In Project]
+G:\desktop\desktop2\PPPP\Chat(Client)\EvilChatClient.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|EVILCHAT|Configure Registry Files]
+Applicable=No
+
+[Package|EVILCHAT|Configure Remote Servers]
+Applicable=No
+
+[Package|EVILCHAT|Install Locations]
+G:\desktop\desktop2\PPPP\Chat(Client)\EvilChatClient.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|EVILCHAT|Configure Shared Files]
+Applicable=Yes
+G:\desktop\desktop2\PPPP\Chat(Client)\EvilChatClient.exe=Yes
+
+[Package|EVILCHAT|Distribution]
+Type=single
+Size=
+Title=EvilChat For Client
+
+[Package|EVILCHAT|IconGroups]
+Group0=EvilChat For Client
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|EVILCHAT|EvilChat For Client]
+Icon1=EvilChatClient.exe
+Title1=EvilChat For Client
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|EVILCHAT|Package]
+PackageFolder=G:\desktop\desktop2\PPPP\Chat(Client)\Package
+ProjectFolder=G:\desktop\desktop2\PPPP\Chat(Client)
+ServerSideCab=
+File1=G:\desktop\desktop2\PPPP\Chat(Client)\Package\setup.exe
+File2=G:\desktop\desktop2\PPPP\Chat(Client)\Package\Setup.Lst
+File3=G:\desktop\desktop2\PPPP\Chat(Client)\Package\EvilChatClient.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
